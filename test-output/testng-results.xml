@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23079" started-at="2017-06-30T06:21:51Z" finished-at="2017-06-30T06:22:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23079" started-at="2017-06-30T06:21:51Z" finished-at="2017-06-30T06:22:14Z">
+      <class name="com.dc4.webfulfillment.testscripts.WebFulfillmentTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="beforeSuite" is-config="true" duration-ms="228" started-at="2017-06-30T11:51:51Z" finished-at="2017-06-30T11:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="setDriver" is-config="true" duration-ms="6144" started-at="2017-06-30T11:51:51Z" finished-at="2017-06-30T11:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="successfullLogin()[pri:1, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="successfullLogin" duration-ms="8501" started-at="2017-06-30T11:51:57Z" finished-at="2017-06-30T11:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullLogin -->
+        <test-method status="PASS" signature="searchCompanyUsingSalesForce(java.lang.String, java.lang.String)[pri:2, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="searchCompanyUsingSalesForce" duration-ms="4814" started-at="2017-06-30T11:52:06Z" data-provider="companyNames" finished-at="2017-06-30T11:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bristlecone Atul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0017000001TTslSAAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCompanyUsingSalesForce -->
+        <test-method status="PASS" signature="searchCompany()[pri:3, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="searchCompany" duration-ms="3091" started-at="2017-06-30T11:52:11Z" finished-at="2017-06-30T11:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCompany -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.dc4.webfulfillment.testscripts.WebFulfillmentTest@5cb9f472]" name="afterSuite" is-config="true" duration-ms="247" started-at="2017-06-30T11:52:14Z" finished-at="2017-06-30T11:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.dc4.webfulfillment.testscripts.WebFulfillmentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
